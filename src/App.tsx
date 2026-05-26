@@ -6,12 +6,12 @@ import "@photo-sphere-viewer/core/index.css";
 import "@photo-sphere-viewer/markers-plugin/index.css";
 import "@photo-sphere-viewer/virtual-tour-plugin/index.css";
 
-const heroImg = "https://images.pexels.com/photos/25819973/pexels-photo-25819973.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=2400&h=1600";
-const volcanoImg = "https://images.pexels.com/photos/8921670/pexels-photo-8921670.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=2000&h=1400";
-const interiorImg = "https://images.pexels.com/photos/5461586/pexels-photo-5461586.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=2000&h=1400";
-const tatamiImg = "https://images.pexels.com/photos/31240278/pexels-photo-31240278.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=2000&h=1400";
-const onsenImg = "https://images.pexels.com/photos/31046939/pexels-photo-31046939.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=2000&h=1400";
-const sunsetImg = "https://images.pexels.com/photos/32369603/pexels-photo-32369603.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=2000&h=1400";
+const heroImg = "/images/6.jpeg";
+const volcanoImg = "/images/5.jpeg";
+const interiorImg = "/images/4.jpeg";
+const tatamiImg = "/images/3.jpeg";
+const onsenImg = "/images/2.jpeg";
+const sunsetImg = "/images/1.jpeg";
 
 const panoramas = {
   suite: "/images/panorama-suite.jpg",
