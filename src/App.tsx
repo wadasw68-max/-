@@ -6,12 +6,12 @@ import "@photo-sphere-viewer/core/index.css";
 import "@photo-sphere-viewer/markers-plugin/index.css";
 import "@photo-sphere-viewer/virtual-tour-plugin/index.css";
 
-const heroImg = "public\images\6.jpeg";
-const volcanoImg = "public\images\5.jpeg";
-const interiorImg = "public\images\4.jpeg";
-const tatamiImg = "public\images\3.jpeg";
-const onsenImg = "public\images\2.jpeg";
-const sunsetImg = "public\images\1.jpeg";
+const heroImg = "/images/6.jpeg";
+const volcanoImg = "/images/5.jpeg";
+const interiorImg = "/images/4.jpeg";
+const tatamiImg = "/images/3.jpeg";
+const onsenImg = "/images/2.jpeg";
+const sunsetImg = "/images/1.jpeg";
 
 const panoramas = {
   suite: "/images/panorama-suite.jpg",
@@ -114,7 +114,7 @@ export default function App() {
       title: "Вертолёт к вулканам",
       desc: "Приватный вылет к кратеру Авачинского, посадка на ледник",
       time: "4 часа",
-      img: "public\images\7.jpeg",
+      img: "/images/7.jpeg",
       longDesc: "Вы поднимаетесь над облаками и через 20 минут оказываетесь над кратером действующего вулкана. Посадка на ледник на высоте 2 800 метров. Горячий чай из термоса, тишина, от которой звенит в ушах, и вид, который невозможно забыть. Пилот — бывший военный лётчик, гид — вулканолог с 15-летним стажем.",
       details: [
         { label: "Длительность", value: "4 часа" },
@@ -129,7 +129,7 @@ export default function App() {
       title: "Дикий онсэн",
       desc: "Купание в термальных источниках под северным сиянием",
       time: "Закат",
-      img: "public\images\8.jpeg",
+      img: "/images/8.jpeg",
       longDesc: "Три диких термальных источника в радиусе 8 км от KŌRI, к которым мы добираемся на снегоходах. Температура воды — 42°C, температура воздуха — минус 18°C. Пар поднимается столбом, а над головой — млечный путь или, если повезёт, северное сияние. Гид готовит сакэ прямо на месте.",
       details: [
         { label: "Длительность", value: "3 часа" },
@@ -144,7 +144,7 @@ export default function App() {
       title: "Тихоокеанская рыбалка",
       desc: "Камчатский краб и дикий лосось с шефом у костра",
       time: "Весь день",
-      img: "public\images\9.jpeg",
+      img: "/images/9.jpeg",
       longDesc: "Утром — выход в Тихий океан на 12-метровом катере. Камчатский краб, палтус, дикий лосось — вы ловите сами под руководством капитана, который рыбачит здесь с 1994 года. После обеда — возвращение на берег, где шеф-повар KŌRI готовит ваш улов на открытом огне. Ужин на берегу океана, костёр и закат.",
       details: [
         { label: "Длительность", value: "8–10 часов" },
@@ -159,7 +159,7 @@ export default function App() {
       title: "Медведи Курильского",
       desc: "Наблюдение с гидом-биологом, безопасно и этично",
       time: "Июль – Сент",
-      img: "public\images\10.jpeg",
+      img: "/images/10.jpeg",
       longDesc: "Вертолёт доставляет вас к Курильскому озеру — крупнейшему нерестилищу нерки в мире. Здесь одновременно кормятся до 200 бурых медведей. Вы наблюдаете с безопасного расстояния в сопровождении гида-биолога, который знает каждого медведя по имени. Буквально. У медведя по кличке «Борис» — 14-й сезон на этом берегу.",
       details: [
         { label: "Длительность", value: "Весь день" },
